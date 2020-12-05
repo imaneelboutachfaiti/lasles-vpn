@@ -1,0 +1,18 @@
+
+.container {
+max-width: 1140px;
+margin: auto;
+}
+
+.header {
+    background-color: #F6F6F6;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    align-self: center;
+}

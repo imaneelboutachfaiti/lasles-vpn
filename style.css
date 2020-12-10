@@ -71,4 +71,37 @@ ul {
   border: transparent;
 }
 
+.get-started-icons {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding-top: 87.05px;
+  padding-bottom: 57.95px;
+}
 
+.users,
+.locations,
+.servers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 36.5px;
+}
+
+.users-icon {
+  margin-left: 76px;
+}
+
+.servers-span {
+  margin-right: 105.5px;
+}
+
+.icon-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.icon-span {
+  font-size: 20px;
+}

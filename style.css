@@ -1,10 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
   background-color: #f6f6f6;
+  margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
 .container {
   max-width: 1140px;
   margin: auto;
@@ -15,8 +21,7 @@ body {
   justify-content: space-between;
 }
 
-ul {
-  list-style-type: none;
+.nav {
   display: flex;
   column-gap: 40px;
 }
@@ -104,4 +109,49 @@ ul {
 
 .icon-span {
   font-size: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 169.48px;
+  padding-bottom: 126.73px;
+}
+
+.features-title {
+  font-size: 35px;
+}
+
+.features-content {
+  padding-top: 164.55px;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  column-gap: 10.08px;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan-title {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.plan-paragraph {
+  text-align: center;
+  word-spacing: ;
 }

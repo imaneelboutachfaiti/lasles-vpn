@@ -19,6 +19,8 @@ h3 {
 .header {
   display: flex;
   justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
 }
 
 .nav {
@@ -44,6 +46,7 @@ h3 {
   background-color: transparent;
   width: 150px;
   border-style: groove;
+  height: 45px;
 }
 
 .header-btn {

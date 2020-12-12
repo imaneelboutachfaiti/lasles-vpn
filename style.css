@@ -176,6 +176,12 @@ ul {
 .plan-offer {
   background-color: #ffffff;
   border-radius: 10px;
+  border-color: #dddddd;
+  border-style: solid;
+}
+
+.plan-selected {
+  border-color: #f53838;
 }
 
 .plans {
@@ -190,11 +196,55 @@ ul {
 .plan-title {
   padding: 30px 124px 30px 124px;
   font-size: 18px;
-  color: #0B132A;
+  color: #0b132a;
 }
 
-.plan-free-content, .plan-standard-content, .plan-premium-content {
-margin-left: 69.73px;
-margin-right: 69.73px;
-margin-bottom: 90px;
+.plan-free-content,
+.plan-standard-content,
+.plan-premium-content {
+  margin-left: 69.73px;
+  margin-right: 69.73px;
+}
+
+.free-cost {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.standard-cost {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.premium-cost {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.non-selected-btn {
+  border-color: #f53838;
+  color: #f53838;
+  border-radius: 50px;
+  margin: 20px 76.06px 50px 76.06px;
+  background-color: transparent;
+  border-style: groove;
+  font-size: 16px;
+  padding: 13px 62.94px 13px 62.94px;
+  font-weight: bold;
+}
+
+.selected-btn {
+  border-color: #f53838;
+  color: #ffffff;
+  border-radius: 50px;
+  margin: 20px 76.06px 50px 76.06px;
+  padding: 13px 62.94px 13px 62.94px;
+  background-color: #f53838;
+  border-style: groove;
+  font-size: 16px;
+  font-weight: bold;
 }

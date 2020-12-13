@@ -17,6 +17,11 @@ p {
   margin: auto;
 }
 
+.container-customers {
+  max-width: 1300px;
+  margin: auto;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -267,4 +272,17 @@ ul {
 .sponsored {
   margin-top: 6.45px;
   margin-bottom: 50px;
+}
+
+.happy-customers-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.happy-customers-paragraph {
+padding-top: 20px;
+text-align: center;
+line-height: 30px;
+padding-bottom: 60px;
 }

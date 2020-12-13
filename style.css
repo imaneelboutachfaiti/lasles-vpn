@@ -248,3 +248,23 @@ ul {
   font-size: 16px;
   font-weight: bold;
 }
+
+.global-network-title {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.network-paragraph {
+  font-size: 16px;
+  color: #4f5665;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 151.81px;
+}
+
+.sponsored {
+  margin-top: 6.45px;
+  margin-bottom: 50px;
+}

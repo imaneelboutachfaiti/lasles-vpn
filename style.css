@@ -117,6 +117,7 @@ p {
   background-color: transparent;
   font-weight: bold;
   color: #0b132a;
+  cursor: pointer;
 }
 
 .sign-up-btn {
@@ -127,11 +128,13 @@ p {
   width: 150px;
   border-style: groove;
   height: 45px;
+  cursor: pointer;
 }
 
 .header-btn {
   display: flex;
   column-gap: 30px;
+  cursor: pointer;
 }
 
 .get-started {
@@ -158,6 +161,7 @@ p {
   padding: 17.5px 77.5px 17.5px 77.5px;
   border: transparent;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .get-started-icons {
@@ -314,6 +318,7 @@ ul {
   font-size: 16px;
   padding: 13px 62.94px 13px 62.94px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .selected-btn {
@@ -326,6 +331,7 @@ ul {
   border-style: groove;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .global-network-title {
@@ -454,6 +460,10 @@ ul {
   width: 30%;
 }
 
+a {
+  text-decoration: none;
+  color: #4F5665;
+}
 .subscribe-now-btn {
   background-color: #f53838;
   font-size: 16px;
@@ -461,6 +471,7 @@ ul {
   padding: 17px 65px;
   border-radius: 10px;
   border: 1px solid;
+  cursor: pointer;
 }
 
 .footer-nav {
@@ -497,4 +508,10 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+}
+
+.icon-description {
+  row-gap: 8px;
+  display: flex;
+  flex-direction: column;
 }

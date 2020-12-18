@@ -450,11 +450,51 @@ ul {
   padding-top: 180px;
 }
 
+.laslesvpn {
+  width: 30%;
+}
+
 .subscribe-now-btn {
-  background-color: #F53838;
+  background-color: #f53838;
   font-size: 16px;
   color: #ffffff;
-  padding:17px 65px;
+  padding: 17px 65px;
   border-radius: 10px;
   border: 1px solid;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 125px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-paragraph {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  color: #afb5c0;
+}
+
+.social-icons {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.list-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }

@@ -1,5 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 body {
   font-family: "Rubik", sans-serif;
   background-color: #f6f6f6;
@@ -12,14 +90,10 @@ h3,
 p {
   margin: 0;
 }
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
-}
-
-.container-customers {
-  max-width: 1300px;
-  margin: auto;
 }
 
 .header {
@@ -274,6 +348,10 @@ ul {
   margin-bottom: 50px;
 }
 
+.customers-reviews {
+  background-color: #f6f6f6;
+}
+
 .happy-customers-title {
   text-align: center;
   font-size: 35px;
@@ -290,6 +368,7 @@ ul {
 .reviews {
   display: flex;
   column-gap: 50px;
+  margin-bottom: 82px;
 }
 
 .comment {
@@ -335,6 +414,47 @@ ul {
   font-size: 16px;
 }
 
-.selected {
-  border-style: 2px solid #f53838;
+.reviews-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  column-gap: 15px;
+}
+
+.navigation-arrows {
+  display: flex;
+  column-gap: 20px;
+}
+
+.subscribe-now {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 60px 70px;
+  transform: translate(0, 50%);
+}
+
+.subscribe-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding-top: 180px;
+}
+
+.subscribe-now-btn {
+  background-color: #F53838;
+  font-size: 16px;
+  color: #ffffff;
+  padding:17px 65px;
+  border-radius: 10px;
+  border: 1px solid;
 }

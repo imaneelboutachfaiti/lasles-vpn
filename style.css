@@ -14,7 +14,7 @@ p {
 }
 .container {
   max-width: 1140px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .container-customers {
@@ -281,8 +281,60 @@ ul {
 }
 
 .happy-customers-paragraph {
-padding-top: 20px;
-text-align: center;
-line-height: 30px;
-padding-bottom: 60px;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 30px;
+  padding-bottom: 60px;
+}
+
+.reviews {
+  display: flex;
+  column-gap: 50px;
+}
+
+.comment {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 30px;
+  flex: 1;
+}
+
+.customer-info-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.customer-place {
+  display: block;
+  font-size: 14px;
+}
+
+.customer-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.customer-paragraph {
+  font-size: 16px;
+  flex: 1;
+}
+
+.star {
+  color: #fea250;
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.rate-value {
+  font-size: 16px;
+}
+
+.selected {
+  border-style: 2px solid #f53838;
 }

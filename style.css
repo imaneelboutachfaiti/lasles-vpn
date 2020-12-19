@@ -143,6 +143,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 103px;
+  column-gap: 40px;
 }
 
 .main-title {
@@ -152,6 +153,7 @@ p {
 .get-started-content {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .get-started-btn {
@@ -454,6 +456,7 @@ ul {
 .footer {
   background-color: #f8f8f8;
   padding-top: 180px;
+  padding-bottom: 100px;
 }
 
 .laslesvpn {
@@ -462,7 +465,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #4F5665;
+  color: #4f5665;
 }
 .subscribe-now-btn {
   background-color: #f53838;
@@ -472,6 +475,7 @@ a {
   border-radius: 10px;
   border: 1px solid;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .footer-nav {
@@ -492,11 +496,12 @@ a {
 
 .copyright {
   color: #afb5c0;
+  font-size: 16px;
 }
 
 .social-icons {
   display: flex;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .list-title {

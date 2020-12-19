@@ -451,6 +451,7 @@ ul {
 .subscribe-title {
   font-size: 35px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .footer {
@@ -523,4 +524,8 @@ a {
 
 .selected-comment {
   border: 2px solid rgb(245,56,56,1);
+}
+
+.subscribe-content {
+  width: 40%;
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Box sizing rules */
 *,
@@ -101,6 +101,7 @@ p {
   justify-content: space-between;
   padding-top: 50px;
   align-items: center;
+  font-weight: 400;
 }
 
 .nav {
@@ -263,6 +264,8 @@ ul {
   border-radius: 10px;
   border-color: #dddddd;
   border-style: solid;
+  text-align: center;
+  padding-top: 80px;
 }
 
 .plan-selected {
@@ -274,66 +277,35 @@ ul {
   justify-content: space-between;
 }
 
-.plan-img {
-  padding: 79.63px 92.55px 0px 92.55px;
-}
-
 .plan-title {
-  padding: 30px 124px 30px 124px;
   font-size: 18px;
   color: #0b132a;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 
-.plan-free-content,
-.plan-standard-content,
-.plan-premium-content {
-  margin-left: 69.73px;
-  margin-right: 69.73px;
-}
-
-.free-cost {
+.plan-cost {
   font-weight: bold;
   font-size: 25px;
-  text-align: center;
-  padding-top: 130px;
+  display: block;
 }
 
-.standard-cost {
-  font-size: 25px;
-  text-align: center;
-  padding-top: 90px;
-}
-
-.premium-cost {
-  font-size: 25px;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.non-selected-btn {
+.select-btn {
   border-color: #f53838;
   color: #f53838;
   border-radius: 50px;
-  margin: 20px 76.06px 50px 76.06px;
+  margin: 20px 75px 50px 75px;
   background-color: transparent;
-  border-style: groove;
+  border-style: solid;
   font-size: 16px;
-  padding: 13px 62.94px 13px 62.94px;
+  padding: 13px 60px;
   font-weight: bold;
   cursor: pointer;
 }
 
 .selected-btn {
-  border-color: #f53838;
-  color: #ffffff;
-  border-radius: 50px;
-  margin: 20px 76.06px 50px 76.06px;
-  padding: 13px 62.94px 13px 62.94px;
   background-color: #f53838;
-  border-style: groove;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
+  color: #ffffff;
 }
 
 .global-network-title {
@@ -358,6 +330,11 @@ ul {
 
 .customers-reviews {
   background-color: #f6f6f6;
+}
+
+.plans {
+  display: flex;
+  column-gap: 50px;
 }
 
 .happy-customers-title {
@@ -523,9 +500,21 @@ a {
 }
 
 .selected-comment {
-  border: 2px solid rgb(245,56,56,1);
+  border: 2px solid rgb(245, 56, 56, 1);
 }
 
 .subscribe-content {
   width: 40%;
+}
+
+.free-plan-space {
+  margin-top: 130px;
+}
+
+.standard-plan-space {
+  margin-top: 90px;
+}
+
+.premium-plan-space {
+  margin-top: 50px;
 }

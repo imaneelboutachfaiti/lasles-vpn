@@ -195,7 +195,7 @@ p {
 
 .get-started-paragraph {
   margin-top: 20px;
-  font-weight: 500;
+  font-weight: 400;
   color: #4f5665;
   font-size: 16px;
 }
@@ -338,7 +338,7 @@ ul {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 155px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .sponsored {
@@ -444,6 +444,7 @@ ul {
 
 .rate-value {
   font-size: 16px;
+  font-weight: 400;
 }
 
 .reviews-navigation {

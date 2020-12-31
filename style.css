@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* Box sizing rules */
 *,
@@ -96,17 +96,26 @@ p {
   margin: 0 auto;
 }
 
+.light-color {
+  color: #4f5665;
+}
+
+.bold-color {
+  color: #0b132a;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
   align-items: center;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .nav {
   display: flex;
   column-gap: 40px;
+  font-weight: 400;
 }
 
 .logo {
@@ -116,8 +125,6 @@ p {
 .sign-in-btn {
   border: none;
   background-color: transparent;
-  font-weight: bold;
-  color: #0b132a;
   cursor: pointer;
 }
 
@@ -127,7 +134,7 @@ p {
   border-radius: 50px;
   background-color: transparent;
   width: 150px;
-  border-style: groove;
+  border-style: solid;
   height: 45px;
   cursor: pointer;
 }
@@ -140,14 +147,19 @@ p {
 
 .get-started {
   display: flex;
-  padding-top: 88.49px;
-  justify-content: space-between;
+  margin-top: 90px;
   align-items: center;
-  padding-bottom: 103px;
-  column-gap: 40px;
+  margin-bottom: 90px;
 }
 
 .main-title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+.logo-title {
+  font-weight: 700;
   font-size: 50px;
 }
 
@@ -161,7 +173,7 @@ p {
   background-color: #f53838;
   color: #ffffff;
   border-radius: 10px;
-  padding: 17.5px 77.5px 17.5px 77.5px;
+  padding: 17px 77px;
   border: transparent;
   margin-top: 50px;
   cursor: pointer;
@@ -172,71 +184,76 @@ p {
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
-  padding-top: 87.05px;
-  padding-bottom: 57.95px;
+  padding: 85px 100px 60px 75px;
 }
 
-.users,
-.locations,
-.servers {
+.icons {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  column-gap: 36.5px;
+  column-gap: 35px;
 }
 
 .get-started-paragraph {
   margin-top: 20px;
-}
-
-.users-icon {
-  margin-left: 76px;
-}
-
-.servers-span {
-  margin-right: 105.5px;
+  font-weight: 500;
+  color: #4f5665;
+  font-size: 16px;
 }
 
 .icon-title {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
-.icon-span {
+.icon-name {
   font-size: 20px;
+  font-weight: 400;
 }
 
 .features {
   display: flex;
   justify-content: space-between;
-  column-gap: 169.48px;
-  padding-bottom: 126.73px;
-  padding-top: 164.55px;
+  padding-bottom: 125px;
+  padding-top: 165px;
   align-items: center;
+  column-gap: 85px;
 }
 
 .features-title {
-  font-size: 35px;
-  width: 383.41px;
+  line-height: 50px;
 }
 
 .features-content {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  padding-left: 85px;
 }
 
 .features-list {
   display: flex;
   flex-direction: column;
-  row-gap: 15px;
+  row-gap: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.subscribe-section {
+  background: linear-gradient(#f6f6f6 50%, #f8f8f8 50%);
 }
 
 .feature {
   display: flex;
   align-items: center;
-  column-gap: 10.08px;
+  column-gap: 10px;
   align-items: center;
+}
+
+.features-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 ul {
@@ -249,13 +266,11 @@ ul {
   font-size: 35px;
   text-align: center;
   padding-bottom: 20px;
-  color: #0b132a;
 }
 
 .plan-paragraph {
   text-align: center;
   font-size: 16px;
-  color: #4f5665;
   padding-bottom: 60px;
 }
 
@@ -279,15 +294,19 @@ ul {
 
 .plan-title {
   font-size: 18px;
-  color: #0b132a;
   margin-top: 80px;
   margin-bottom: 30px;
+  font-weight: 500;
 }
 
 .plan-cost {
-  font-weight: bold;
   font-size: 25px;
   display: block;
+  font-weight: 500;
+}
+
+.duration {
+  font-weight: 400;
 }
 
 .select-btn {
@@ -299,7 +318,6 @@ ul {
   border-style: solid;
   font-size: 16px;
   padding: 13px 60px;
-  font-weight: bold;
   cursor: pointer;
 }
 
@@ -317,19 +335,23 @@ ul {
 
 .network-paragraph {
   font-size: 16px;
-  color: #4f5665;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 151.81px;
 }
 
 .sponsored {
-  margin-top: 6.45px;
+  margin-top: 7px;
   margin-bottom: 50px;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .customers-reviews {
   background-color: #f6f6f6;
+  margin-bottom: 65px;
 }
 
 .plans {
@@ -340,7 +362,26 @@ ul {
 .happy-customers-title {
   text-align: center;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.checked-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.list {
+  padding-left: 70px;
+}
+
+.checked-items {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
 }
 
 .happy-customers-paragraph {
@@ -348,6 +389,8 @@ ul {
   text-align: center;
   line-height: 30px;
   padding-bottom: 60px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .reviews {
@@ -373,16 +416,19 @@ ul {
 .customer-place {
   display: block;
   font-size: 14px;
+  font-weight: 400;
 }
 
 .customer-name {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .customer-paragraph {
   font-size: 16px;
   flex: 1;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .star {
@@ -422,13 +468,16 @@ ul {
   align-items: center;
   border-radius: 10px;
   padding: 60px 70px;
-  transform: translate(0, 50%);
+}
+
+.subscribe-paragraph {
+  font-weight: 400;
 }
 
 .subscribe-title {
   font-size: 35px;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .footer {
@@ -443,17 +492,19 @@ ul {
 
 a {
   text-decoration: none;
-  color: #4f5665;
 }
+
 .subscribe-now-btn {
   background-color: #f53838;
   font-size: 16px;
   color: #ffffff;
   padding: 17px 65px;
   border-radius: 10px;
-  border: 1px solid;
+  border: 1px solid #000000;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 25px;
+  box-shadow: 0 30px 54px rgba(245, 56, 56, 0.35);
 }
 
 .footer-nav {
@@ -470,27 +521,36 @@ a {
 .footer-paragraph {
   margin-top: 20px;
   margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer-logo {
+  font-weight: 500;
 }
 
 .copyright {
   color: #afb5c0;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .social-icons {
   display: flex;
-  /* margin-bottom: 30px; */
 }
 
 .list-title {
   margin-bottom: 20px;
   font-size: 18px;
+  font-weight: 500;
 }
 
 .list-items {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .icon-description {

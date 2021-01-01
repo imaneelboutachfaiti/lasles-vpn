@@ -128,15 +128,19 @@ p {
   cursor: pointer;
 }
 
-.sign-up-btn {
-  color: #f53855;
+.radical-red-btn {
   border-color: #f53855;
-  border-radius: 50px;
+  color: #f53855;
   background-color: transparent;
-  width: 150px;
+  border-radius: 50px;
   border-style: solid;
-  height: 45px;
   cursor: pointer;
+  font-size: 16px;
+}
+
+.sign-up-btn {
+  width: 150px;
+  height: 45px;
 }
 
 .header-btn {
@@ -262,7 +266,7 @@ ul {
   padding: 0;
 }
 a:visited {
-  color: #4F5665;
+  color: #4f5665;
 }
 
 .plan-paragraph-title {
@@ -279,13 +283,13 @@ a:visited {
 
 .plan-offer {
   background-color: #ffffff;
-    border-radius: 10px;
-    border-color: #dddddd;
-    border-style: solid;
-    text-align: center;
-    padding: 80px 70px 50px;
-    display: flex;
-    flex-direction: column;
+  border-radius: 10px;
+  border-color: #dddddd;
+  border-style: solid;
+  text-align: center;
+  padding: 80px 70px 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .plan-selected {
@@ -312,15 +316,9 @@ a:visited {
 }
 
 .select-btn {
-  border-color: #f53838;
-    color: #f53838;
-    border-radius: 50px;
-    margin-top: 20px;
-    background-color: transparent;
-    border-style: solid;
-    font-size: 16px;
-    padding: 13px 60px;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 13px 60px;
+  font-weight: 700;
 }
 
 .selected-btn {

@@ -572,3 +572,9 @@ a {
 .subscribe-content {
   width: 40%;
 }
+
+@media screen and (max-width: 1140px) {
+  body {
+      padding-left: 20px;
+  }
+}

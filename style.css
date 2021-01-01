@@ -578,3 +578,9 @@ a {
       padding-left: 20px;
   }
 }
+
+.icons-border {
+  border-right: 2px solid #EEEFF2;
+  padding-right: 130px;
+  height: 125px;
+}

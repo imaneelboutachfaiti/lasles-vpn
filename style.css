@@ -116,6 +116,7 @@ p {
   display: flex;
   column-gap: 40px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .logo {

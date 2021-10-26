@@ -157,6 +157,10 @@ p {
   margin-bottom: 90px;
 }
 
+.shadow-btn:hover{
+  box-shadow: 0 30px 54px rgba(245, 56, 56, 0.35);
+}
+
 .main-title {
   font-size: 50px;
   font-weight: 500;
@@ -293,7 +297,7 @@ a:visited {
   flex-direction: column;
 }
 
-.plan-selected {
+.plan-offer:hover{
   border-color: #f53838;
 }
 
@@ -323,10 +327,12 @@ a:visited {
   border: 2px solid;
 }
 
-.selected-btn {
+.select-btn:hover {
   background-color: #f53838;
   color: #ffffff;
+  border: none;
 }
+
 
 .global-network-title {
   font-weight: 500;
@@ -410,6 +416,10 @@ a:visited {
   background-color: #ffffff;
   padding: 30px;
   flex: 1;
+}
+
+.comment:hover{
+  border: 2px solid rgb(245, 56, 56, 1);
 }
 
 .customer-info-section {
@@ -511,7 +521,12 @@ a {
   cursor: pointer;
   font-weight: 700;
   line-height: 25px;
-  box-shadow: 0 30px 54px rgba(245, 56, 56, 0.35);
+  border: transparent;
+}
+
+.subscribe-now-btn:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  border: 1px solid #000000;
 }
 
 .footer-nav {
@@ -570,10 +585,6 @@ a {
   row-gap: 8px;
   display: flex;
   flex-direction: column;
-}
-
-.selected-comment {
-  border: 2px solid rgb(245, 56, 56, 1);
 }
 
 .subscribe-content {
